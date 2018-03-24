@@ -37,7 +37,10 @@
 					$_SESSION['sess_email']=$dbemail;
 					$_SESSION['sess_addr']=$addr;
 					$_SESSION['sess_pwd']=$dbpass;
-					header("Location: orderMenu.php");
+					if($_SESSION['sess_name']=="admin")
+						header("Location: admin.php");
+					else
+						header("Location: orderMenu.php");
 				}
 			}
 			else{

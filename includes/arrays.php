@@ -35,6 +35,26 @@
 		)
 	);
 
+	//Admin Profile
+	$adminProfile=array(
+		array(
+			'slug'=>"adminProfile.php",
+			'title'=>"View Profile"
+		),
+		array(
+			'slug'=>"allOrders.php",
+			'title'=>"View Orders"
+		),
+		array(
+			'slug'=>"allUsers.php",
+			'title'=>"View Customers"
+		),
+		array(
+			'slug'=>"logout.php",
+			'title'=>"Logout"	
+		)
+	);
+
 	//User Edit Nav Menu Items
 	$userEditNavItems=array(
 		array(
